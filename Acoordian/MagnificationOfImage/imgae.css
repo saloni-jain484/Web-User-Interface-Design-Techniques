@@ -1,0 +1,15 @@
+.pic{
+    height: 200px;
+    width: 200px;
+}
+.picbig{
+    position: absolute;
+    width: 0px;
+    animation:width 0.3s linear 0s ;
+    transition: width 0.3s linear 0s;
+    z-index: 100;
+}
+
+.pic:hover + .picbig{
+    width: 200px;
+}
