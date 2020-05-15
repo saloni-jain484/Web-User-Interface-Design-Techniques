@@ -1,0 +1,15 @@
+#container section p{
+    margin: 0%;
+    display: none;
+    text-decoration: none;
+}
+
+#container section a:hover{
+    margin: 0%;
+    text-decoration: blueviolet;
+    color:rgb(0, 0, 0);
+}
+#container section:target p{
+    margin: 0%;
+    display:block;
+}
